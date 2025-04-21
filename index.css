@@ -1,0 +1,93 @@
+.wrapper{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,125,209,0.2554271708683473) 100%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 12rem;
+
+}
+.Heading1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+   
+}
+/* .display{
+    background-color: darkgray;
+    margin-top: -0.15px;
+   
+} */
+.display {
+    color: linear-gradient(90deg, rgba(50,45,85,1) 0%, rgba(90,170,230,0.3) 100%, rgba(150,230,255,1) 100%);
+    ;
+    width: 250px; /* Adjust as needed */
+    padding: 10px;
+    padding-right: 40px; /* Space for the button */
+    /* border: 2px solid #ccc; */
+    border-radius: 5px;
+    font-size: 16px;
+    position: relative;
+    border: none;
+    margin-right: 22px;
+    /* background: linear-gradient(90deg, rgba(50,45,85,1) 0%, rgba(90,170,230,0.3) 100%, rgba(150,230,255,1) 100%); */
+}
+
+.copybtn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+}
+.input-display{
+    background: linear-gradient(90deg, rgba(50,45,85,1) 0%, rgba(90,170,230,0.3) 100%, rgba(150,230,255,1) 100%);
+    width: 20rem;
+    border-radius: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.para1{
+    margin-left: 29px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.slider{
+    /* justify-content: center;
+    justify-items: center;
+    margin-left: 5rem; */
+    
+        width: 250px;  /* Adjust this value to increase length */
+        height: 6px;   /* Optional: Adjust thickness */
+        appearance: none; /* Removes default styles */
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,125,209,0.3) 100%, rgba(0,212,255,1) 100%);
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer;
+        margin-left: 30px;
+    
+    
+}
+.checkbox{
+    justify-content: center;
+    justify-items: center;
+    margin-left: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.genrate-pass{
+    margin-left: 30px;
+    width: 250px;
+    border-radius: 5px;
+    color:black;
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
